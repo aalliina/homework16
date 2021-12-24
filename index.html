@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="app.js"></script>
+    <h3>Разница между == и ===</h3>
+    <p>Оператор == сравнивает на равенство, а вот === — на идентичность. Плюс оператора === состоит в том, что он не приводит два значения к одному типу. Именно из-за этого он обычно и используется.
+    </p>
+    <p>abc  == undefined;	// true, если abc = undefined | null <br>
+    abc === undefined;	// true - только если abc = undefined!</p>
+    <p>
+        abc  == false;	// true, если abc = false | 0 | '' | [] <br>
+abc === false; // true, только если abc = false!
+    </p> <br>
+    <h3>
+        Разница между != и !==
+    </h3>
+    <p>!= будет проверять только значение независимо от типа операндов. но !== используется для сравнения обоих значений & типа 2 операндов, которые сравниваются друг с другом. <br> <br>
+
+        !== означает, что две переменные проверяются как на их значение, так и на их тип значения ( 8!==8 вернет false, а 8!=="8" вернет true). != проверяет только значение переменной ( 8!=8 и 8!="8" оба вернут false).</p>
+</body>
+</html>
